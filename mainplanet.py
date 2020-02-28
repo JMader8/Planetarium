@@ -1,3 +1,5 @@
-from planetariumclass import planetarium
+from planetclass import planet
 
-print(planetarium())
+d=planet("Moon", 3)
+
+d.print()

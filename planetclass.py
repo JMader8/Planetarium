@@ -1,9 +1,13 @@
-class Planet(object):
-    planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]
+class planet(object):
 
-    def __init__(self, name, order):
+
+    def __init__(self, name, radius):
         self.name = name
-        self.order= order
+        self.radius = radius
+
+    def print(self):
+        return f"Radius: {self.radius}"
+
 
 
 
